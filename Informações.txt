@@ -1,0 +1,33 @@
+Usuario e senha WD47
+web8030
+leonardo.souza@caelum.com.br
+
+Front-end
+Javascript: Linguagem intrepretada em tempo de execução.
+
+Camadas:
+HTML			CSS					JAVASCRIPT
+Informação		Apresentação		Comportamento
+
+EcmaScript (Mantida pela W3C (consórcio de grandes players))
+Até 2014			| 2015  
+ES5 (mais antigo)	| Mudou bastante e mudou pra melhor	
+					| ES6, ES7, ES8...
+
+* Transpalling -> transforma código JavaScript Moderno ES6+ para Javascript mais antigo.
+	* Tool: Babel
+
+* 3 formas de adicionar javascript em uma página
+	* Script inline (pior jeito) = Injeta código Javascript em tags HTML
+	  	Fere uma das políticas do desenvolvimento web moderno, mistura informação com comportamento e gera um alto acoplamento.
+	  	Muito ruim de dar manutenção.
+	* Script embed (script incorporado) = Muito usado para incorporar e integrar sua página com serviços de terceiros, exemplo Google Analytics
+	* Script external: Código js que está dentro do domínio da sua aplicação e é referenciado pela camada de informação para carregar um script
+		da camada de comportamento.
+	* Motivos para colocar o js (embed, external) na parte de baixo do HTML = PERFORMANCE - Browser executa carregamento SERIAL
+
+* Tempo de payload = Tempo que demora para carregar sua página
+
+#################################################################################################################################################
+* Atalhos VSCode
+!+Tab = Estrutura basica de um HTML 
