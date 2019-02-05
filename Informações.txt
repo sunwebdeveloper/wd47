@@ -24,10 +24,25 @@ ES5 (mais antigo)	| Mudou bastante e mudou pra melhor
 	* Script embed (script incorporado) = Muito usado para incorporar e integrar sua página com serviços de terceiros, exemplo Google Analytics
 	* Script external: Código js que está dentro do domínio da sua aplicação e é referenciado pela camada de informação para carregar um script
 		da camada de comportamento.
+		propriedades:
+			Os 2 são executados de forma paralela, porém os defering esperam que todos sejam carregados para que sejam interpretados. O browser fica esperando até o último js carregar para começar executar. Defer é  diferente de precedência, ele não precisa saber a ordem.
+
+			async: Usado qdo o js não tem nenhuma dependência com nenhum outro arquivo js declarado
+			defer: Usado qdo um js depende de outro js 
 	* Motivos para colocar o js (embed, external) na parte de baixo do HTML = PERFORMANCE - Browser executa carregamento SERIAL
 
 * Tempo de payload = Tempo que demora para carregar sua página
+* API pode ser comparada a um painel de avião onde uma série de botões e instrumentos existem para o piloto decolar e pousar o avião
+* JS API
+	* Armazenamento -> Guarda os resultados (de possíveis execuções de instruções) para uso posterior
+		* Ex. var chave = valor;	
+	* Instrução -> realiza uma ação, uma operação 
+		* Ex. comando();
 
 #################################################################################################################################################
 * Atalhos VSCode
 !+Tab = Estrutura basica de um HTML 
+
+#################################################################################################################################################
+Dicas
+devdocs.io
