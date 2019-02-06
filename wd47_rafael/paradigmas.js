@@ -1,3 +1,1 @@
-console.log("PARADMAS");SVGAElement
-var emoresa= "Linuc"
-var empresa= "Alura" 
+console.log("=== Paradigmas ===");
